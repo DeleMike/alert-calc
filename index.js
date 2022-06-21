@@ -26,10 +26,9 @@ const callCalculator = () => {
       operator = prompt('Please choose an operation from the list of operators you want to perform [ addition( + ), subtraction( - ), multiplication( * ), division( / ) ]');
 
       if (operators.includes(operator)) {
-         console.log('valid');
          isOpValid = true;
       }else{
-         console.log('invalid');
+         alert('Please enter a valid operator')
          isOpValid = false;
       }
 
