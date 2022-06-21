@@ -29,7 +29,6 @@ const callCalculator = () => {
          isOpValid = true;
       }else{
          alert('Please enter a valid operator')
-         isOpValid = false;
       }
 
    } 
